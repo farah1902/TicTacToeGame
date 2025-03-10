@@ -1,0 +1,45 @@
+.confirm-restart {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background-color: hsl(197.65deg 36.17% 18.43%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.confirm-restart h1 {
+    color: hsl(200.63deg 23.19% 72.94%)
+}
+
+.confirm-restart .select {
+    margin-top: 20px;
+}
+
+.confirm-restart button {
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 10px;
+
+    box-shadow: 0 5px 2px 0 rgb(18, 24, 40);
+    cursor: pointer;
+}
+
+.confirm-restart .cancel-button {
+    color: hsl(208deg 40.54% 7.25%);
+    background-color: hsl(200.63deg 22.54% 72.16%);
+
+}
+
+.confirm-restart .restart-button {
+    color: hsl(208deg 40.54% 7.25%);
+    background-color: hsl(37.62deg 89.37% 59.41%);
+
+
+}

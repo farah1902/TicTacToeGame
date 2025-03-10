@@ -1,0 +1,76 @@
+.header {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.header li {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.header li .x-mark {
+    width: 52px;
+    height: 44px;
+}
+
+.header li .x-mark .line1,
+.header li .x-mark .line2 {
+    width: 7px;
+    height: 64%;
+}
+
+.header li .contain-icon {
+    width: 30px;
+
+}
+
+.header li .o-mark span {
+    width: 10px;
+    height: 10px;
+    border: 8px solid rgb(242 178 55);
+}
+
+.header .turn {
+    width: 100px;
+    height: 100%;
+    color: rgb(168 190 201);
+    font-weight: 500;
+    background-color: rgb(31 53 64);
+    padding: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px rgb(21, 34, 41);
+}
+
+.header .turn .x-mark .line1,
+.header .turn .line2 {
+    background-color: rgb(168 190 201);
+
+}
+
+.header .turn .o-mark span {
+    border-color: rgb(168 190 201);
+
+}
+
+.header .turn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .restart {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(168 190 201);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px rgb(108 138 152);
+    cursor: pointer;
+}

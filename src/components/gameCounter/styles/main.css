@@ -1,0 +1,43 @@
+:root {
+    --bg-color: rgb(25 42 50);
+}
+
+.counter {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.counter li {
+    border-radius: 10px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    flex-direction: column;
+}
+
+.counter .x {
+    background-color: rgb(49 196 190);
+    color: var(--bg-color);
+}
+
+.counter .ties {
+    background-color: rgb(168 190 201);
+    color: var(--bg-color);
+}
+
+.counter .o {
+    background-color: rgb(242 178 55);
+    color: var(--bg-color);
+}
+
+.counter span {
+    font-weight: 500;
+    display: block;
+
+    font-size: 12px
+}

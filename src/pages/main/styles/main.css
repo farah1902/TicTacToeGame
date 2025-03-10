@@ -1,0 +1,17 @@
+.main {
+    background-color: rgb(25 42 50);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main .table {
+    display: flex;
+    max-width: 300px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}

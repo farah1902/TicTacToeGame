@@ -1,0 +1,25 @@
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(31 53 64);
+    border-radius: 10px;
+    box-shadow: 0 5px 2px 0 rgb(18, 24, 40);
+}
+
+.box.win.x {
+    background-color: rgb(49 196 190);
+}
+
+.box.win.x .line1,
+.box.win.x .line2 {
+
+    background-color: rgb(31 53 64);
+}
+
+.box.win.o {
+    background-color: rgb(242 178 55);
+}
+
+.box.win.o span {
+    border: 15px solid rgb(31 53 64);
+}

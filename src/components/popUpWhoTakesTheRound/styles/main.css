@@ -1,0 +1,88 @@
+.game-round {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background-color: hsl(197.65deg 36.17% 18.43%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.game-round span {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: rgb(168 190 201);
+    font-size: 12px;
+}
+
+.game-round .choices {
+    margin-top: 20px;
+}
+
+.game-round button {
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 10px;
+    box-shadow: 0 5px 2px 0 rgb(18, 24, 40);
+    cursor: pointer;
+}
+
+.game-round .quit-btn {
+    color: hsl(208deg 40.54% 7.25%);
+    background-color: hsl(200.63deg 22.54% 72.16%);
+}
+
+.game-round .next-round-btn {
+    color: hsl(208deg 40.54% 7.25%);
+    background-color: hsl(37.62deg 89.37% 59.41%);
+}
+
+.game-round .x-winer,
+.game-round .o-winer {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 750px) {
+
+    .game-round .x-winer,
+    .game-round .o-winer {
+        width: 100%;
+    }
+}
+
+.game-round .x-winer div,
+.game-round .o-winer div {
+    width: 95px;
+    height: 67px;
+}
+
+.game-round .x-winer span {
+    display: block;
+    font-size: 30px;
+    color: rgb(49 196 190);
+
+}
+
+.game-round .o-winer span {
+    display: block;
+    font-size: 30px;
+    color: rgb(242 178 55);
+}
+
+.game-round .x-winer .x-mark {
+    /* width: fit-content; */
+}
